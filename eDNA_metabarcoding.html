@@ -37,44 +37,35 @@
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
-						<header class="major"><h2>RNAseq</h2></header>
+						<header class="major"><h2>eDNA metabarcoding</h2></header>
 
 						<!-- Content -->
 							<section id="content">
 							  <left>
-							    <h3><b>Un análisis de RNAseq tiene el objetivo de cuantificar y comparar la expresión de genes a nivel de ARN mensajero (ARNm) en diferentes muestras o condiciones experimentales.</b></h3>
-                                
-        
-
-                <p>Este análisis permite identificar qué genes están siendo activados o desactivados, y en qué medida, en respuesta a diferentes factores, como condiciones ambientales, tratamientos, estados de enfermedad o diferencias entre especies.</p>
+							    <h3><b>El metabarcoding es una herramienta de gran poder para explorar la diversidad genética de diferentes sistemas biológicos. Este flujo de trabajo está diseñado para ser empleado sobre datos generados a partir de muestras del medio ambiente (suelo, sedimento, agua e incluso heces)</b></h3>
+									
+                     
+                <p>Apartir de datos de secuenciación masiva generados por la plataforma de Illumina, se realiza un ensamble de las lecturas pareadas para reconstruir al marcador seleccionado, posteriormente, aquellos ensambles que resultan muy cortos o muy largos son removidos. Después se realiza un proceso de dereplicación de secuencias, de filtrado de secuencias únicas y aquellas que presentan errores de PCR/secuenciación. Finalmente, empleando una base de datos previamente personalizada para el marcador se realiza la asignación taxonómica con una combinación de métodos que incluyen BLAST/LCA (Lowest Common Ancestor)</p>
                 
-                <p>A través de RNAseq, se puede obtener una visión integral del transcriptoma, que es el conjunto completo de transcripciones de ARN en una célula o tejido en un momento dado. Esto proporciona información valiosa sobre los procesos biológicos subyacentes, las vías moleculares involucradas y puede ayudar en la identificación de biomarcadores y una mejor comprensión de la biología celular y molecular.</p>
-
                               </section>
                 
                 <h2>Flujo de trabajo:</h2>
                 
-                <img src="images/services/rnaseq_pipe.png" height="800px" width="600px" style="display:block; margin-left:auto; margin-right:auto;" alt="Flujo de trabajo de RNAseq">
+                <img src="images/services/pipe_DNA_metabarcoding.png" height="800px" width="700px" style="display:block; margin-left:auto; margin-right:auto;" alt="Flujo de trabajo de RRBS">
                 
                 <h2>Este proyecto no incluye:</h2>
                 
                 <ul>
-                    <li>Extracción, purificación, preparación de librerías ni secuenciación de ARN</li>
                     <li>Discusión ni interpretación de los resultados obtenidos</li>
+                    
                 </ul>
                 
                 <h2>Entregables:</h2>
-                
+            
                 <ul>
                     <li>Resultados de control de calidad de secuencias crudas y procesadas (html)</li>
-                    <li>Secuencias del ensamble de transcriptoma (fasta)</li>
-                    <li>Resultados de control de calidad del ensamble (BUSCO, Transrate) (pdf)</li>
-                    <li>Archivo de anotación del ensamble usando la base de datos Uniprot y pfam (xls)</li>
-                    <li>Gráfico de análisis multivariado (PCA; MDS) con los valores de expresión globales (eps/pdf)</li>
-                    <li>Lista de genes/transcritos expresados diferencialmente (xls)</li>
-                    <li>Gráficas de volcán, MA, heatmaps y patrones de expresión (eps/pdf)</li>
-                    <li>Resultados de enriquecimiento funcional (Gene Ontology; KEGG)(xls)</li>
-                    <li>Dashboard interactivo con genes expresados diferencialmente (html)</li>
+                    <li>Archivo con secuencias anotadas en formato fasta y CSV</li>
+                    <li>Gráficos adaptados a las necesidades de cada proyecto</li>
                 </ul>
 
 

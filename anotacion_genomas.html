@@ -37,44 +37,33 @@
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
-						<header class="major"><h2>RNAseq</h2></header>
+						<header class="major"><h2>Anotación de genómas eucariotas</h2></header>
 
 						<!-- Content -->
 							<section id="content">
 							  <left>
-							    <h3><b>Un análisis de RNAseq tiene el objetivo de cuantificar y comparar la expresión de genes a nivel de ARN mensajero (ARNm) en diferentes muestras o condiciones experimentales.</b></h3>
+							    <h3><b>El creciente número de genomas secuenciados, particularmente en organismos no modelo, requiere de métodos para una inferencia adecuada de genes </b></h3>
+									
                                 
-        
-
-                <p>Este análisis permite identificar qué genes están siendo activados o desactivados, y en qué medida, en respuesta a diferentes factores, como condiciones ambientales, tratamientos, estados de enfermedad o diferencias entre especies.</p>
+                <p>En este servicio hacemos uso de BRAKER, un paquete que combina el uso de GeneMark-ET y AUGUSTUS para inferir las estructuras de los genes dentro de los genomas</p>
                 
-                <p>A través de RNAseq, se puede obtener una visión integral del transcriptoma, que es el conjunto completo de transcripciones de ARN en una célula o tejido en un momento dado. Esto proporciona información valiosa sobre los procesos biológicos subyacentes, las vías moleculares involucradas y puede ayudar en la identificación de biomarcadores y una mejor comprensión de la biología celular y molecular.</p>
-
                               </section>
                 
                 <h2>Flujo de trabajo:</h2>
                 
-                <img src="images/services/rnaseq_pipe.png" height="800px" width="600px" style="display:block; margin-left:auto; margin-right:auto;" alt="Flujo de trabajo de RNAseq">
+                <img src="images/services/pipe_anotacion_genomas.png" height="750px" width="600px" style="display:block; margin-left:auto; margin-right:auto;" alt="Flujo de trabajo de RRBS">
                 
                 <h2>Este proyecto no incluye:</h2>
                 
                 <ul>
-                    <li>Extracción, purificación, preparación de librerías ni secuenciación de ARN</li>
                     <li>Discusión ni interpretación de los resultados obtenidos</li>
                 </ul>
                 
                 <h2>Entregables:</h2>
                 
                 <ul>
-                    <li>Resultados de control de calidad de secuencias crudas y procesadas (html)</li>
-                    <li>Secuencias del ensamble de transcriptoma (fasta)</li>
-                    <li>Resultados de control de calidad del ensamble (BUSCO, Transrate) (pdf)</li>
-                    <li>Archivo de anotación del ensamble usando la base de datos Uniprot y pfam (xls)</li>
-                    <li>Gráfico de análisis multivariado (PCA; MDS) con los valores de expresión globales (eps/pdf)</li>
-                    <li>Lista de genes/transcritos expresados diferencialmente (xls)</li>
-                    <li>Gráficas de volcán, MA, heatmaps y patrones de expresión (eps/pdf)</li>
-                    <li>Resultados de enriquecimiento funcional (Gene Ontology; KEGG)(xls)</li>
-                    <li>Dashboard interactivo con genes expresados diferencialmente (html)</li>
+                    <li>Archivo con secuencias inferidas de nucléotidos y proteínas en formato fasta</li>
+                    <li>Archivo de anotación en formato gtf</li>
                 </ul>
 
 
